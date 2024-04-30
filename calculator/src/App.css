@@ -1,0 +1,38 @@
+/* App.css */
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.result {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #ddd;
+}
